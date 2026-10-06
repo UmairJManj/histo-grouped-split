@@ -1,0 +1,293 @@
+{
+  "unique_images": 368,
+  "match_kinds": {
+    "whole patch resized 512->224 (pixel-identical)": 368
+  },
+  "patches_matched_more_than_once": 0,
+  "nuinsseg_human_patches_total": 472,
+  "nuinsseg_organs_not_used": [
+    "placenta"
+  ],
+  "per_class": {
+    "bladder": {
+      "unique_images": 12,
+      "files": 53,
+      "organ_match": 12,
+      "nuinsseg_human_patches": 12,
+      "copy_counts": {
+        "2": 1,
+        "3": 3,
+        "4": 2,
+        "5": 3,
+        "6": 2,
+        "7": 1
+      }
+    },
+    "brain": {
+      "unique_images": 12,
+      "files": 46,
+      "organ_match": 12,
+      "nuinsseg_human_patches": 12,
+      "copy_counts": {
+        "2": 3,
+        "3": 3,
+        "4": 1,
+        "5": 4,
+        "7": 1
+      }
+    },
+    "cardia": {
+      "unique_images": 12,
+      "files": 45,
+      "organ_match": 12,
+      "nuinsseg_human_patches": 12,
+      "copy_counts": {
+        "2": 3,
+        "3": 3,
+        "4": 2,
+        "5": 3,
+        "7": 1
+      }
+    },
+    "cerebellum": {
+      "unique_images": 12,
+      "files": 53,
+      "organ_match": 12,
+      "nuinsseg_human_patches": 12,
+      "copy_counts": {
+        "2": 1,
+        "3": 3,
+        "4": 2,
+        "5": 3,
+        "6": 2,
+        "7": 1
+      }
+    },
+    "epiglottis": {
+      "unique_images": 11,
+      "files": 49,
+      "organ_match": 11,
+      "nuinsseg_human_patches": 11,
+      "copy_counts": {
+        "2": 1,
+        "3": 1,
+        "4": 3,
+        "5": 4,
+        "6": 2
+      }
+    },
+    "gland": {
+      "unique_images": 32,
+      "files": 48,
+      "organ_match": 32,
+      "nuinsseg_human_patches": 44,
+      "copy_counts": {
+        "1": 21,
+        "2": 6,
+        "3": 5
+      }
+    },
+    "jejunum": {
+      "unique_images": 10,
+      "files": 47,
+      "organ_match": 10,
+      "nuinsseg_human_patches": 10,
+      "copy_counts": {
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 5,
+        "6": 1,
+        "7": 1
+      }
+    },
+    "kidney": {
+      "unique_images": 11,
+      "files": 46,
+      "organ_match": 11,
+      "nuinsseg_human_patches": 11,
+      "copy_counts": {
+        "2": 1,
+        "3": 3,
+        "4": 2,
+        "5": 3,
+        "6": 2
+      }
+    },
+    "liver": {
+      "unique_images": 32,
+      "files": 53,
+      "organ_match": 32,
+      "nuinsseg_human_patches": 40,
+      "copy_counts": {
+        "1": 15,
+        "2": 13,
+        "3": 4
+      }
+    },
+    "lung": {
+      "unique_images": 11,
+      "files": 45,
+      "organ_match": 11,
+      "nuinsseg_human_patches": 11,
+      "copy_counts": {
+        "2": 1,
+        "3": 4,
+        "4": 1,
+        "5": 3,
+        "6": 2
+      }
+    },
+    "melanoma": {
+      "unique_images": 12,
+      "files": 53,
+      "organ_match": 12,
+      "nuinsseg_human_patches": 12,
+      "copy_counts": {
+        "2": 1,
+        "3": 3,
+        "4": 2,
+        "5": 3,
+        "6": 2,
+        "7": 1
+      }
+    },
+    "muscle": {
+      "unique_images": 9,
+      "files": 53,
+      "organ_match": 9,
+      "nuinsseg_human_patches": 9,
+      "copy_counts": {
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 5
+      }
+    },
+    "oesophagus": {
+      "unique_images": 34,
+      "files": 52,
+      "organ_match": 34,
+      "nuinsseg_human_patches": 47,
+      "copy_counts": {
+        "1": 21,
+        "2": 8,
+        "3": 5
+      }
+    },
+    "pancreas": {
+      "unique_images": 31,
+      "files": 45,
+      "organ_match": 31,
+      "nuinsseg_human_patches": 44,
+      "copy_counts": {
+        "1": 21,
+        "2": 6,
+        "3": 4
+      }
+    },
+    "peritoneum": {
+      "unique_images": 12,
+      "files": 53,
+      "organ_match": 12,
+      "nuinsseg_human_patches": 12,
+      "copy_counts": {
+        "2": 1,
+        "3": 3,
+        "4": 2,
+        "5": 3,
+        "6": 2,
+        "7": 1
+      }
+    },
+    "pylorus": {
+      "unique_images": 12,
+      "files": 50,
+      "organ_match": 12,
+      "nuinsseg_human_patches": 12,
+      "copy_counts": {
+        "2": 2,
+        "3": 4,
+        "5": 3,
+        "6": 2,
+        "7": 1
+      }
+    },
+    "rectum": {
+      "unique_images": 12,
+      "files": 44,
+      "organ_match": 12,
+      "nuinsseg_human_patches": 12,
+      "copy_counts": {
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 2,
+        "7": 1
+      }
+    },
+    "spleen": {
+      "unique_images": 26,
+      "files": 44,
+      "organ_match": 26,
+      "nuinsseg_human_patches": 34,
+      "copy_counts": {
+        "1": 12,
+        "2": 11,
+        "3": 2,
+        "4": 1
+      }
+    },
+    "testis": {
+      "unique_images": 12,
+      "files": 45,
+      "organ_match": 12,
+      "nuinsseg_human_patches": 12,
+      "copy_counts": {
+        "2": 3,
+        "3": 3,
+        "4": 2,
+        "5": 3,
+        "7": 1
+      }
+    },
+    "tongue": {
+      "unique_images": 30,
+      "files": 47,
+      "organ_match": 30,
+      "nuinsseg_human_patches": 40,
+      "copy_counts": {
+        "1": 17,
+        "2": 9,
+        "3": 4
+      }
+    },
+    "tonsile": {
+      "unique_images": 12,
+      "files": 47,
+      "organ_match": 12,
+      "nuinsseg_human_patches": 12,
+      "copy_counts": {
+        "2": 3,
+        "3": 3,
+        "5": 5,
+        "7": 1
+      }
+    },
+    "umbilical-cord": {
+      "unique_images": 11,
+      "files": 52,
+      "organ_match": 11,
+      "nuinsseg_human_patches": 11,
+      "copy_counts": {
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 6,
+        "6": 1,
+        "7": 1
+      }
+    }
+  }
+}

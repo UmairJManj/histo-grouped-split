@@ -1,0 +1,97 @@
+{
+  "files": 1070,
+  "groups": 368,
+  "pool_files": 917,
+  "pool_groups": 315,
+  "test_files": 153,
+  "test_groups": 53,
+  "test_group_fraction": 0.144,
+  "classes_missing_from_test": [],
+  "per_seed_sizes": {
+    "42": {
+      "cv_fold_sizes": [
+        [
+          735,
+          182
+        ],
+        [
+          731,
+          186
+        ],
+        [
+          734,
+          183
+        ],
+        [
+          734,
+          183
+        ],
+        [
+          734,
+          183
+        ]
+      ],
+      "final_train_val": [
+        786,
+        131
+      ]
+    },
+    "43": {
+      "cv_fold_sizes": [
+        [
+          733,
+          184
+        ],
+        [
+          733,
+          184
+        ],
+        [
+          734,
+          183
+        ],
+        [
+          734,
+          183
+        ],
+        [
+          734,
+          183
+        ]
+      ],
+      "final_train_val": [
+        786,
+        131
+      ]
+    },
+    "44": {
+      "cv_fold_sizes": [
+        [
+          733,
+          184
+        ],
+        [
+          734,
+          183
+        ],
+        [
+          734,
+          183
+        ],
+        [
+          733,
+          184
+        ],
+        [
+          734,
+          183
+        ]
+      ],
+      "final_train_val": [
+        786,
+        131
+      ]
+    }
+  },
+  "leakage_check": "passed: no MD5 hash in two partitions (test/pool, every CV fold and final train/val, all seeds)"
+}
