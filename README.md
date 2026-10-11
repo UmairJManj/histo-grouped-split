@@ -1,6 +1,6 @@
-# HistoFormerFusion: code
+# Duplicate-aware evaluation: code
 
-Code for "HistoFormerFusion: Adaptive CNN-Transformer Feature Fusion for Multiclass Histopathological Tissue Classification". This package holds no data and no model checkpoints.
+Code for "Duplicate-Aware Evaluation of Frozen Foundation Model Features and Fine-Tuned Networks for 22-Class Human Tissue Classification". This package holds no data and no model checkpoints.
 
 ## Layout
 
@@ -16,6 +16,7 @@ Code for "HistoFormerFusion: Adaptive CNN-Transformer Feature Fusion for Multicl
 | `grouped/classical_ml.py` | SVM / Random Forest / k-NN on GLCM, LBP and RGB/HSV histogram features, on the same split. |
 | `grouped/aggregate.py` | Tables, paired statistics (t-test, Wilcoxon, Holm, McNemar), compute table, figures. |
 | `grouped/lane.sl`, `grouped/lane_debug.sl`, `grouped/classical.sl`, `grouped/smoke_cpu.sl`, `grouped/common_env.sh`, `grouped/tasks*.txt`, `grouped/status.sh` | Slurm work-queue scripts used on NeSI. Each lane claims (model, seed, unit) tasks from `tasks.txt` with mkdir locks. Paths are NeSI-specific; edit `common_env.sh`. |
+| `foundation/` | Frozen foundation model track: feature extraction (`fm_features.py`), grouped cross-validation of the logistic regression models (`fm_raw_cv.py`), fusion heads (`fm_raw_fusion.py`, `fm_heads.py`), held-out test scoring (`fm_raw_test.py`), the random file-level split (`fm_random_split.py`) and the timestamped analysis declarations (`DECLARATIONS.md`). |
 | `dataset_origin/` | `match_nuinsseg.py` maps each unique image to its NuInsSeg source patch: all 368 are whole human patches, bicubic-resized from 512 to 224 and pixel-identical. Output in `nuinsseg_mapping.csv`. |
 
 ## Data
