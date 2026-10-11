@@ -1,6 +1,6 @@
 # Duplicate-aware evaluation: code
 
-Code for "Duplicate-Aware Evaluation of Frozen Foundation Model Features and Fine-Tuned Networks for 22-Class Human Tissue Classification". This package holds no data and no model checkpoints.
+Code for "Duplicate-Aware Evaluation of Frozen Foundation Model Features and Fine-Tuned Networks for Human Tissue Classification". This package holds no data and no model checkpoints.
 
 ## Layout
 
